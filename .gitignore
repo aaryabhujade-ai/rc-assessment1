@@ -1,0 +1,57 @@
+# Model weights and checkpoints (Avoid committing large binaries)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+*.engine
+
+# ComfyUI cache, logs, and temporary folders
+temp/
+output/
+seedvr2_after/
+*.log
+
+# Scratch scripts and temporary files
+scratch/
+scratch_*.json
+scratch_*.ps1
+
+# Python runtime artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Operating System temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*~
+
+# IDE configurations
+.idea/
+.vscode/
+.antigravity-ide/
